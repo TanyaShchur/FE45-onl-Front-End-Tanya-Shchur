@@ -3,13 +3,6 @@
     background-color: #F5F5F5;
 }
 
-.line {
-    width: 64px;
-    height: 2px;
-    border-top: 1px solid #E72424;
-    margin: 34px auto;
-}
-
 .pricing-text {
     text-align: center;
     color: #86878B;

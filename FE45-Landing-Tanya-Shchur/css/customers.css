@@ -1,0 +1,101 @@
+.customers {
+    padding: 80px 0 123px;
+
+}
+
+.customers-text {
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 19px;
+    margin-bottom: 67px;
+
+}
+
+.customers-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+
+.customers-card {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    margin: 0 15px;
+
+
+
+}
+
+.customers-card-text {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 9px 22px 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    margin-bottom: 28px;
+    color: #86878B;
+}
+
+.customers-card-text::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 15%;
+    transform: rotate(-45deg);
+    top: calc(100% - 10px);
+    background-color: #e2e2e2;
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+}
+
+
+.customers-card-review {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.customers-card-review-img img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+
+}
+
+.customers-card-personality {
+    display: block;
+    text-align: right;
+
+}
+
+.customers-card-personality-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.customers-card-personality-major {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    align-items: center;
+    color: #86878B;
+
+}
