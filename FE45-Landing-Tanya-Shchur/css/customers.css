@@ -75,12 +75,11 @@
 }
 
 .customers-card-personality {
-    display: block;
     text-align: right;
-
 }
 
 .customers-card-personality-name {
+    display: block;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;

@@ -1,0 +1,149 @@
+.header {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 19px 108px;
+
+}
+
+.header-wrap {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo--title {
+    font-family: Raleway, serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.logo-title--second {
+    color: #EC7979;
+    font-family: Raleway, serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation-list--item {
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 0 15px;
+}
+
+.navigation-list--item a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation-list--item:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid #FFFFFFB2;
+}
+
+.socialmedia {
+    background-color: #F8EFEF;
+    padding: 19px 108px;
+}
+
+.socialmedia-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia-description {
+    margin-right: 90px;
+}
+
+.socialmedia-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+.socialmedia-text {
+    width: 365px;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.socialmedia-links {
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia-links--item {
+    cursor: pointer;
+}
+
+.socialmedia-links--item a {
+    color: #86878B;
+    font-size: 42px;
+}
+
+.fa-brands {
+    transition: 0.3s;
+}
+
+.fa-facebook:hover {
+    transform: skew(-20deg, 5deg);
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    transform: skew(-20deg, 5deg);
+    color: #00acee;
+}
+
+.fa-google-plus-g:hover {
+    transform: skew(-20deg, 5deg);
+    color: #4285f4;
+}
+
+.fa-pinterest:hover {
+    transform: skew(-20deg, 5deg);
+    color: #e60023;
+}
+
+.fa-instagram:hover {
+    transform: skew(-20deg, 5deg);
+    color: #c13584;
+}
+
+.fa-stumbleupon:hover {
+    transform: skew(-20deg, 5deg);
+    color: #3b5998;
+}
+
+.fa-rss:hover {
+    transform: skew(-20deg, 5deg);
+    color: #ee802f;
+}
