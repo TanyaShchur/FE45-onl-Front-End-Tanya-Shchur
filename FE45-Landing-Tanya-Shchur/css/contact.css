@@ -1,0 +1,86 @@
+.contact {
+    padding: 80px 0 44px;
+
+}
+
+.title {}
+
+.contact-text {
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+    margin-bottom: 90px;
+}
+
+.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-card--left {
+    width: 40%;
+    margin-bottom: 38px;
+}
+
+.contact-card--item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 32px;
+
+}
+
+.contact-card--item label {
+    width: 100px;
+}
+
+.contact-card--input {
+    font-family: inherit;
+    border: none;
+    line-height: 50px;
+    width: 100%;
+    padding: 0 14px;
+}
+
+.contact-card--right {
+    width: 40%;
+    margin-bottom: 38px;
+}
+
+.contact-card--message {}
+
+.contact-message--textarea {
+    border: none;
+    color: #BDBDBD;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    font-family: 'Raleway';
+
+    padding: 14px;
+}
+
+.contact-button {
+    cursor: pointer;
+    background-color: #EC7979;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    width: 166px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Raleway';
+}

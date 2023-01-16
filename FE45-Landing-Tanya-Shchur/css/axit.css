@@ -1,0 +1,184 @@
+.axit {
+    padding: 100px 0 100px;
+    background-image: url(../img/axit-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.axit::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+.axit-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.axit-description {
+    z-index: 2;
+}
+
+.axit-logo {}
+
+.axit-logo--name {
+    font-family: Raleway, serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+
+}
+
+.logo-name--second {
+    font-family: Raleway, serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #EC7979;
+
+}
+
+.title-axit {
+    font-family: Raleway, serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    max-width: 550px;
+    margin-bottom: 40px;
+}
+
+.title-axit::after {
+    content: "";
+    width: 64px;
+    height: 1px;
+    background-color: #FFFFFF;
+    display: block;
+    margin: 60px 0 0 0;
+}
+
+.axit-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFFCC;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 40px;
+    max-width: 285px;
+}
+
+.axit-button {
+    cursor: pointer;
+    display: block;
+    width: 135px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 27px 12px 25px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    background: none;
+    align-items: center;
+
+}
+
+.axit-button a {
+    color: #FFFFFF;
+}
+
+.axit-form {
+    width: 370px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 2;
+
+}
+
+.form-content {
+    padding: 30px 60px 60px;
+
+
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    padding: 14px;
+
+}
+
+.form-title--part {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #EC7979;
+
+}
+
+.form-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 18px;
+
+}
+
+.form-item label {
+    white-space: nowrap;
+}
+
+.form-item input {
+    line-height: 54px;
+    width: 100%;
+}
+
+.form-item--input {
+    font-family: inherit;
+    border: none;
+
+
+}
+
+.form-button {
+    background-color: #EC7979;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    height: 53px;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+}
