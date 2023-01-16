@@ -55,6 +55,7 @@
     background-color: #e2e2e2;
     width: 20px;
     height: 20px;
+    z-index: -1;
 }
 
 
