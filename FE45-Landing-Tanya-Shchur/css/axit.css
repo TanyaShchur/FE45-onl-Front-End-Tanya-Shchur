@@ -25,7 +25,7 @@
 .axit-wrap {
     display: flex;
     justify-content: space-between;
-
+    margin: 0 -15px;
 }
 
 .axit-description {
@@ -98,7 +98,7 @@
     border: 1px solid #FFFFFF;
     background: none;
     align-items: center;
-
+    margin-bottom: 30px;
 }
 
 .axit-button a {
@@ -111,9 +111,12 @@
     border-radius: 8px;
     overflow: hidden;
     z-index: 2;
+    position: relative;
+}
+.form-description{
+    width: 100%;
 
 }
-
 .form-content {
     padding: 30px 60px 60px;
 
@@ -165,10 +168,19 @@
 .form-item--input {
     font-family: inherit;
     border: none;
-
+    padding: 10px;
 
 }
-
+.form-bottom{
+    background-color: #EC7979;
+    padding: 20px 0;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 .form-button {
     background-color: #EC7979;
     color: #FFFFFF;
@@ -176,9 +188,9 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    text-align: center;
+    /*text-align: center;
     width: 100%;
-    height: 53px;
-    border-radius: 0px 0px 8px 8px;
+    height: 35%;
+    border-radius: 0px 0px 8px 8px;*/
     border: none;
 }

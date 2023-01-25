@@ -1,0 +1,143 @@
+.tabs {
+    padding: 50px 0;
+
+}
+
+.tabs-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.tabs-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.tabs-item--up {
+    width: 112px;
+    line-height: 112px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #EC7979;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.tabs-item--up:hover {
+    transform: scale(1.03);
+}
+
+.tabs-item--middle {
+    width: 112px;
+    line-height: 112px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #333333;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tabs-item--middle:hover {
+    transform: scale(1.03);
+}
+
+
+.tabs-item--bottom {
+    width: 112px;
+    line-height: 112px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #333333;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.tabs-item--bottom:hover {
+    transform: scale(1.03);
+}
+
+
+.tabs-description {
+    width: 572px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.tabs-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Open Sans';
+    color: black;
+
+}
+
+.tabs-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.tabs-text p {
+    text-transform: uppercase;
+    color: #86878B;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tabs-text--top {
+    margin-bottom: 30px;
+}
+
+.tabs-text--bottom {
+    margin-bottom: 0;
+}
+
+.tabs-button {
+    width: 135px;
+    line-height: 42px;
+    border: none;
+    background-color: #EC7979;
+    text-align: center;
+    transition: 0.2s;
+}
+.tabs-button a {
+color: #FFFFFF;
+}
+
+.tabs-button:hover {
+    transform: scale(1.03);
+}
+
+.tabs-image {}
+
+.tabs-image--content {}

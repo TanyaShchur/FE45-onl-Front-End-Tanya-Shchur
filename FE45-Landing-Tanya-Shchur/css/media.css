@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1200px) {
+    .header {
+        padding: 20px;
+    }
+    .container {
+        margin: 0 10px;
+    }
+    .axit-description {
+        padding: 20px;
+    }
+    .axit-form {
+        margin: 0 20px;
+    }
+    .socialmedia {
+        padding: 19px 0;
+    }
+    .socialmedia-wrap {
+        flex-direction: column;
+    }
+    .socialmedia-links {
+        width: 100%;
+    }
+    .tabs-description {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .option__list {
+        width: 30%;
+    }
+    .contact-card--left, .contact-card--right {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .axit-wrap {
+        flex-direction: column;
+    }
+    .axit-form {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .tabs-wrap {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .tabs-part {
+        flex-direction: row;
+    }
+
+    .tabs-part button {
+        line-height: 20px;
+    }
+    .tabs-image {
+        text-align: center;
+    }
+    .awesome-wrap {
+        flex-direction: column;
+    }
+    .awesome-card {
+        margin: 20px;
+    }
+    .option__list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .customers-wrap {
+        justify-content: space-around;
+    }
+    .customers-card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .contact-wrap {
+        flex-direction: column;
+    } 
+    .contact-card--left, .contact-card--right {
+        width: 100%;
+    }
+}
